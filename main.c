@@ -91,34 +91,34 @@
 // }
 
 //논리연산자
-int main()
-{
-  int data1 =5, data2 = 3;
+// int main()
+// {
+//   int data1 =5, data2 = 3;
 
-  int result1 = 0 || 1; //OR 
-  int result2 = 3 && -1; //AND 
-  int result3 = data1 == 3 || data2 ==3; // 거짓 OR 참
-  int result4 = data1 ==3 && data2 ==3; // 거짓 AND 참
-  int result5 = !data1; // 참 NOT 
+//   int result1 = 0 || 1; //OR 
+//   int result2 = 3 && -1; //AND 
+//   int result3 = data1 == 3 || data2 ==3; // 거짓 OR 참
+//   int result4 = data1 ==3 && data2 ==3; // 거짓 AND 참
+//   int result5 = !data1; // 참 NOT 
 
-  printf("result : %d %d %d %d %d\n", result1,result2, result3, result4, result5); 
+//   printf("result : %d %d %d %d %d\n", result1,result2, result3, result4, result5); 
   
-  // result : 1 1 1 0 0 
-}
+//   // result : 1 1 1 0 0 
+// }
 
 //07 연습문제 P150   Q4, Q7, Q9
 
-// int main()
-//   {
-//     int data =5, result =0;
+int main()
+  {
+    int data =5, result =0;
 
-//     result = data++ +2; //Q4
-//     //result = --result && (data=0); // Q7
-//     //result = result-- ||(data=0); //Q9
+    result = data++ +2; //Q4
+    //result = --result && (data=0); // Q7
+    //result = result-- ||(data=0); //Q9
 
-//     printf("result : %d\n", result); 
-//     printf("data : %d", data);
+    printf("result : %d\n", result); 
+    printf("data : %d", data);
   
-//   }
+  }
   
 
